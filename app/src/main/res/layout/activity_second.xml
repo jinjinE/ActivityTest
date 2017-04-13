@@ -8,7 +8,7 @@
     android:background="#f5d1ec"
     tools:context="emirim0223.kr.hs.emirim.activitytest.MainActivity">
 
-    <TextViewid
+    <TextView
         android:id="@+id/text_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

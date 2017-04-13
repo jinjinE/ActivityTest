@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view) {
             Intent intent = new Intent(MainActivity.this, SecondActivity.class);
             String name = editname.getText().toString();
-            String tel = editname.getText().toString();
+            String tel = edittel.getText().toString();
             intent.putExtra("name",name);// 첫번째건 이름 두번째건 값
             intent.putExtra("tel",tel);
             startActivity(intent);
